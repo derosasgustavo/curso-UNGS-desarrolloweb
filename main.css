@@ -1,0 +1,77 @@
+.encabezado {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.cuerpoPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 3rem;
+
+
+}
+
+.bannerInicio {
+    height: 12rem;
+    background-image: url(/imagenes/padel-6322450_1280_crop1655914838678.jpg_1902800913.webp);
+    background-position: center;
+    font-style: italic;
+    font-size: larger;
+    font: 900;
+    color: antiquewhite;
+    text-shadow: 3px -3px rgb(123, 123, 241);
+}
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(187, 184, 184);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+
+    gap: 4rem;
+    font-size: large;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    width: 15rem;
+    opacity: 0.85;
+    justify-content: space-between;
+    box-shadow: 6px -6px rgb(133, 145, 145);
+
+}
+
+.cuerpoCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    background-color: rgb(167, 184, 204);
+    border-radius: 0%;
+    opacity: 1;
+    box-shadow: none;
+}
+
+.imagenTarjeta {
+    height: 50%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.tituloTarjeta {
+    align-content: center;
+
+}
