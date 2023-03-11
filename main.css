@@ -75,3 +75,25 @@ ul {
     align-content: center;
 
 }
+.parrafoNoticia{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.mainNoticia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagenesNoticia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+}
+.imagenNoticia{
+    height: 15rem;
+    width: 20rem; 
+    padding: 1rem;
+    
+}
